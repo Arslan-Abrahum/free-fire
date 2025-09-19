@@ -11,7 +11,6 @@ import Diamond from "../assets/pubg-images/single-diamond.png";
 import VisaCard from "../assets/pubg-images/visa-logo-png-transparent-removebg-preview.png"
 import VisaGolden from "../assets/pubg-images/visa-gold-removebg-preview.png"
 import MasterCard from "../assets/pubg-images/Mastercard-Logo.wine.png"
-import UCImage1 from "../assets/pubg-images/uc-small.bc30c95b.png"
 import CrossImage from "../assets/pubg-images/X-8.png"
 import Globe from "../assets/pubg-images/globe-image.png"
 import USA_Logo from '../assets/pubg-images/Flag_of_the_United_States.png'
@@ -148,8 +147,6 @@ function FailedUC() {
     setPaymentStatus(false)
     setIsLoading(false)
     setSearchVal("")
-
-
   }
 
 
@@ -166,10 +163,8 @@ function FailedUC() {
         <div className='w-[70%] h-auto flex justify-center items-center gap-x-2 mb-2'>
           <img className='h-11 w-11' src={Garena} alt="Garena Topup" />
           <h1 className="text-2xl font-semibold text-center mb-2 text-white">  Garena Topup Center Connected Successfully</h1>
-
         </div>
         <div className='w-full m-auto flex items-center justify-center mb-2 gap-5'>
-
           <input
             type="text"
             placeholder="Search by ID"
@@ -192,7 +187,6 @@ function FailedUC() {
              <div className="BGImage h-[108px] overflow-hidden bg-cover relative bg-center flex justify-center items-center cursor-pointer">
                 <img src={pkg.picURL} alt="UCImage" className='mt-2' />
                 <img src={ImageFire} alt="Free Fire" className='images absolute top-[35%] left-[16%]' />
-
               </div>
               <div className="card-content p-0">
                 <div className="uc-package w-[90%] flex items-center justify-center mb-0">

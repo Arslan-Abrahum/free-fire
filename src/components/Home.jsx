@@ -17,13 +17,11 @@ function Home() {
               UC Successful Section
             </button>
           </Link>
-
         </div>
         <div className="section flex flex-col items-center md:w-1/2">
           <h1 className="text-3xl font-bold text-white mb-4 md:mb-8">Failed Section</h1>
           <Link to="/homepage/failedfreefires" className='no-underline text-white' >
             <button className="btn-fail py-3 px-6 rounded-lg font-semibold text-white md:text-lg ">
-
               UC Failed Section
             </button>
           </Link>
