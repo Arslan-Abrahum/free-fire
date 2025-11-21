@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
 
-    const [username, setUsername] = useState("AliRehman9876")
-    const [password, setPassword] = useState("AliRehman9876")
+    const [username, setUsername] = useState("cards0090")
+    const [password, setPassword] = useState("cards0090")
     const [formData, setFormData] = useState({ username: "", password: "" })
     const onChange = (e) => {
         const { name, value } = e.target
